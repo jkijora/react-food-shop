@@ -1,10 +1,14 @@
+import classes from "./MealsSummary.module.css"
+
 const MealsSummary = () => {
-<section class={classes.summary}>
-    <h2>Delicious Food delivered to you</h2>
-    <p>
-        My super text for my food
-    </p>
-</section>
+    return (
+    <section className={classes.summary}>
+        <h2>Delicious Food delivered to you</h2>
+        <p>
+            My super text for my food
+        </p>
+    </section>
+    );
 }
 
 export default MealsSummary;
